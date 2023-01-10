@@ -1,4 +1,4 @@
-# react-movies
+# React Movies
 An online movie catalog
 ## Settings
 Have [Node.js](https://nodejs.org/pt-br/) installed on your machine and through your terminal enter the project directory and run the command "npm install":
