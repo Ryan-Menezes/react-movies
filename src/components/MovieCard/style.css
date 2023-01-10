@@ -1,0 +1,40 @@
+.movie-card {
+  width: 30%;
+  color: #fff;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #111;
+  padding: 1rem;
+}
+
+.movie-card img {
+  max-width: 100%;
+}
+
+.movie-card img,
+.movie-card p,
+.movie-card h2 {
+  margin-bottom: 1rem;
+}
+
+.movie-card svg {
+  color: #f7d354;
+}
+
+.movie-card a {
+  background-color: #f7d354;
+  border: 2px solid #f7d354;
+  border-radius: 4px;
+  color: #121212;
+  padding: 1rem 0.5rem;
+  transition: .4s;
+  text-align: center;
+  font-weight: bold;
+}
+
+.movie-card a:hover {
+  background-color: transparent;
+  color: #f7d354;
+}

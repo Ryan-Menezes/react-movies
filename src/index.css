@@ -1,0 +1,32 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+*::selection {
+  background-color: #f7d354;
+  color: #222;
+}
+
+body {
+  background-color: #000;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #f7d354;
+  transition: .5s;
+}
+
+a:hover {
+  color: #b8930c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
